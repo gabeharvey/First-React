@@ -109,3 +109,7 @@
 // )
 
 // ReactDOM.render (Navbar, document.getElementById('root'))
+
+// import ReactDOM from 'react-dom/client';
+
+// ReactDOM.render(Hello, React, document.getElementById("root"))
