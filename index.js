@@ -82,14 +82,30 @@
 // console.log(element)
 
 // JSX
-const page = (
-    <div>
-        <h1>Hello, React!</h1>
-        <p>We are learning React!</p>
-    </div>
-    )
+// const page = (
+//     <div>
+//         <h1>This is JSX</h1>
+//         <p>We are learning React!</p>
+//     </div>
+//     )
 
-ReactDOM.render(
-    page, 
-    document.getElementById('root')
+// console.log (page)
+
+// ReactDOM.render(
+//     page, 
+//     document.getElementById('root')
+// )
+
+// Create Navbar using JSX
+const Navbar = (
+    <nav>
+        <h1>Gabe's React Website</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
 )
+
+ReactDOM.render (Navbar, document.getElementById('root'))
