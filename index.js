@@ -78,8 +78,14 @@
 // // Append the h1 to the root element
 // document.getElementById('root').appendChild(h1);
 
-const element = <h1 className='header'>This is JSX</h1>
-console.log(element)
+// const element = <h1 className='header'>This is JSX</h1>
+// console.log(element)
 
 // JSX
-ReactDOM.render(element, document.getElementById('root'))
+ReactDOM.render(
+    <div>
+        <h1>Hello, React!</h1>
+        <p>We are learning React!</p>
+    </div>, 
+    document.getElementById('root')
+)
