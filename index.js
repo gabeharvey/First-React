@@ -97,15 +97,15 @@
 // )
 
 // Create Navbar using JSX
-const Navbar = (
-    <nav>
-        <h1>Gabe's React Website</h1>
-        <ul>
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-)
+// const Navbar = (
+//     <nav>
+//         <h1>Gabe's React Website</h1>
+//         <ul>
+//             <li>Pricing</li>
+//             <li>About</li>
+//             <li>Contact</li>
+//         </ul>
+//     </nav>
+// )
 
-ReactDOM.render (Navbar, document.getElementById('root'))
+// ReactDOM.render (Navbar, document.getElementById('root'))
