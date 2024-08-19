@@ -113,3 +113,5 @@
 // import ReactDOM from 'react-dom/client';
 
 // ReactDOM.render(Hello, React, document.getElementById("root"))
+
+// Goodbye CDNs
