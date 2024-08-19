@@ -115,3 +115,35 @@
 // ReactDOM.render(Hello, React, document.getElementById("root"))
 
 // Goodbye CDNs
+// import React from 'react';
+// import ReactDOM from 'react-dom/client'; // For React 18
+
+// // Create the Navbar component
+// const Navbar = (
+//     <nav>
+//         <h1>Gabe's React Website</h1>
+//         <ul>
+//             <li>Pricing</li>
+//             <li>About</li>
+//             <li>Contact</li>
+//         </ul>
+//     </nav>
+// );
+
+// // Find the root element and render the Navbar component
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(Navbar);
+
+const Navbar = (
+    <nav>
+      <h1>Gabe's React Website</h1>
+      <ul>
+        <li>Pricing</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  );
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(Navbar);
