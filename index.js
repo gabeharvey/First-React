@@ -10,59 +10,68 @@
 // </ul>, document.getElementById("root"))
 
 // Render MainContent
-function Navbar() {
-    return (
-      <nav style={styles.navbar}>
-        <div style={styles.logo}>React</div>
-        <ul style={styles.navLinks}>
-          <li style={styles.navItem}><a href="#home" style={styles.navLink}>Home</a></li>
-          <li style={styles.navItem}><a href="#about" style={styles.navLink}>About</a></li>
-          <li style={styles.navItem}><a href="#services" style={styles.navLink}>Services</a></li>
-          <li style={styles.navItem}><a href="#contact" style={styles.navLink}>Contact</a></li>
-        </ul>
-      </nav>
-    );
-  }
+// function Navbar() {
+//     return (
+//       <nav style={styles.navbar}>
+//         <div style={styles.logo}>React</div>
+//         <ul style={styles.navLinks}>
+//           <li style={styles.navItem}><a href="#home" style={styles.navLink}>Home</a></li>
+//           <li style={styles.navItem}><a href="#about" style={styles.navLink}>About</a></li>
+//           <li style={styles.navItem}><a href="#services" style={styles.navLink}>Services</a></li>
+//           <li style={styles.navItem}><a href="#contact" style={styles.navLink}>Contact</a></li>
+//         </ul>
+//       </nav>
+//     );
+//   }
   
-  const styles = {
-    navbar: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      padding: '10px 20px',
-      backgroundColor: '#333',
-    },
-    logo: {
-      color: '#fff',
-      fontSize: '24px',
-      fontWeight: 'bold',
-    },
-    navLinks: {
-      listStyle: 'none',
-      display: 'flex',
-      margin: 0,
-      padding: 0,
-    },
-    navItem: {
-      marginLeft: '20px',
-    },
-    navLink: {
-      color: '#fff',
-      textDecoration: 'none',
-      fontSize: '18px',
-    }
-  };
+//   const styles = {
+//     navbar: {
+//       display: 'flex',
+//       justifyContent: 'space-between',
+//       alignItems: 'center',
+//       padding: '10px 20px',
+//       backgroundColor: '#333',
+//     },
+//     logo: {
+//       color: '#fff',
+//       fontSize: '24px',
+//       fontWeight: 'bold',
+//     },
+//     navLinks: {
+//       listStyle: 'none',
+//       display: 'flex',
+//       margin: 0,
+//       padding: 0,
+//     },
+//     navItem: {
+//       marginLeft: '20px',
+//     },
+//     navLink: {
+//       color: '#fff',
+//       textDecoration: 'none',
+//       fontSize: '18px',
+//     }
+//   };
 
-function MainContent () {
-    return (
-    <h1> I'm Learning React</h1>
-    )
-}
+// function MainContent () {
+//     return (
+//     <h1> I'm Learning React</h1>
+//     )
+// }
 
-ReactDOM.render(
-    <div>
-        <Navbar />
-        <MainContent />
-    </div>,
-    document.getElementById("root")
-)
+// ReactDOM.render(
+//     <div>
+//         <Navbar />
+//         <MainContent />
+//     </div>,
+//     document.getElementById("root")
+// )
+
+// Create an h1 element
+const h1 = document.createElement('h1');
+    
+// Set the text content
+h1.textContent = 'Hello, React';
+
+// Append the h1 to the root element
+document.getElementById('root').appendChild(h1);
