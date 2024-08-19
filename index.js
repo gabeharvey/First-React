@@ -82,10 +82,14 @@
 // console.log(element)
 
 // JSX
-ReactDOM.render(
+const page = (
     <div>
         <h1>Hello, React!</h1>
         <p>We are learning React!</p>
-    </div>, 
+    </div>
+    )
+
+ReactDOM.render(
+    page, 
     document.getElementById('root')
 )
