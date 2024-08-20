@@ -171,3 +171,22 @@
 // document.getElementById('root').append(JSON.stringify(MyPage))
 
 // ReactDOM.render(MyPage, document.getElementById('root'))
+
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+
+// const MyPage = (
+//     <h1>Testing</h1>
+// )
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(MyPage);
+
+const MyPage = (
+    <div>
+        <img src="./react-logo.png" width="40px" />
+    </div>
+);
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(MyPage);
