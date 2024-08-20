@@ -148,18 +148,26 @@
 //   const root = ReactDOM.createRoot(document.getElementById('root'));
 //   root.render(Navbar);
 
-const MyPage = (
-    <div>
-        <h1>Hello, My Name is Gabe</h1>
-        <p>I live in San Antonio Texas</p>
-        <h2>Here are my favorite foods:</h2>
-        <ul>
-            <li>Kale</li>
-            <li>Dates</li>
-            <li>Hummus</li>
-        </ul>
-    </div>
-)
+// import React from 'react'
+// import ReactDOM from 'react-dom'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(MyPage);
+// const MyPage = (
+//     <div>
+//         <h1>Hello, My Name is Gabe</h1>
+//         <p>I live in San Antonio Texas</p>
+//         <h2>Here are my favorite foods:</h2>
+//         <ul>
+//             <li>Kale</li>
+//             <li>Dates</li>
+//             <li>Hummus</li>
+//         </ul>
+//     </div>
+// )
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(MyPage);
+
+// List in JSON format
+// document.getElementById('root').append(JSON.stringify(MyPage))
+
+// ReactDOM.render(MyPage, document.getElementById('root'))
