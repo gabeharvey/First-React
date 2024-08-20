@@ -134,16 +134,32 @@
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(Navbar);
 
-const Navbar = (
-    <nav>
-      <h1>Gabe's React Website</h1>
-      <ul>
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-  );
+// const Navbar = (
+//     <nav>
+//       <h1>Gabe's React Website</h1>
+//       <ul>
+//         <li>Pricing</li>
+//         <li>About</li>
+//         <li>Contact</li>
+//       </ul>
+//     </nav>
+//   );
 
-  const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(Navbar);
+//   const root = ReactDOM.createRoot(document.getElementById('root'));
+//   root.render(Navbar);
+
+const MyPage = (
+    <div>
+        <h1>Hello, My Name is Gabe</h1>
+        <p>I live in San Antonio Texas</p>
+        <h2>Here are my favorite foods:</h2>
+        <ul>
+            <li>Kale</li>
+            <li>Dates</li>
+            <li>Hummus</li>
+        </ul>
+    </div>
+)
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(MyPage);
