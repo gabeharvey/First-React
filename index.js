@@ -184,7 +184,7 @@
 
 const MyPage = (
     <div>
-        <img src="./react-logo.png" width="40px" />
+        <img src="./react-logo.png" width="50px" />
         <h1>Fun Facts About React</h1>
         <ul>
             <li>Was First Released in 2013</li>
